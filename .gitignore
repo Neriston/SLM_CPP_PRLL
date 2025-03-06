@@ -1,3 +1,12 @@
 .vs
 x64-debug
 x64-release
+/Makefile
+/slm_cpp_mesh_divided
+/solution.pvd
+/.vscode
+/CMakeFiles
+/cmake_install.cmake
+/CMakeCache.txt
+/CMakePresets.json
+/solution

@@ -1,9 +1,9 @@
 {
-  "processes": {
-	  "in parallel": 8
-  },
-  "path to project": "null",
-  "geometry": {
+	"processes": {
+		"in parallel": 8
+	},
+	"path to project": "null",
+	"geometry": {
 		"elems": {
 			"x": 40,
 			"y": 40,
@@ -15,38 +15,50 @@
 			"z": 10e-6
 		},
 		"coarsen after": {
-			"x": [ 14, 18, 22 ],
-			"y": [ 14, 18, 22 ],
-			"z": [ 24, 26, 28 ]
+			"x": [
+				14,
+				18,
+				22
+			],
+			"y": [
+				14,
+				18,
+				22
+			],
+			"z": [
+				24,
+				26,
+				28
+			]
 		},
 		"powder thickness": 60e-6,
 		"buffer zone, elems": 1,
-		"adaptive landscape":  true
-  },
-  "time": {
-	  "start": 0,
-	  "step": 1e-7,
-	  "iterations": 100000
-  },
-  "logging": {
-	  "log entries": 10
-  },
-  "temperatures": {
-	  "air": 300,
-	  "initial": 300,
+		"adaptive landscape": true
+	},
+	"time": {
+		"start": 0,
+		"step": 1e-7,
+		"iterations": 100000
+	},
+	"logging": {
+		"log entries": 10
+	},
+	"temperatures": {
+		"air": 300,
+		"initial": 300,
 		"melting": 1923,
 		"vaporization": 3530,
-	  "cut off": 2200
-  },
-  "mass": {
-	  "rho": {
-		  "solid": 4400,
-		  "packing": 0.65,
+		"cut off": 2200
+	},
+	"mass": {
+		"rho": {
+			"solid": 4400,
+			"packing": 0.65,
 			"liquid": 3900,
 			"vapor": 3900
-	  }
-  },
-  "energy": {
+		}
+	},
+	"energy": {
 		"solid": {
 			"C": 770,
 			"KA": 0.01463,
@@ -67,11 +79,11 @@
 			"fusion": 286000,
 			"vaporization": 6000000
 		}
-  },
-  "radiation": {
-	  "emmisivity": 1
-  },
-  "laser": {
+	},
+	"radiation": {
+		"emmisivity": 1
+	},
+	"laser": {
 		"loc": {
 			"x": 0.25,
 			"y": 0.5,
@@ -92,5 +104,5 @@
 		"state": true,
 		"tracks": 1,
 		"layers": 1
-  }
+	}
 }
